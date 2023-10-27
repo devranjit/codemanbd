@@ -1,0 +1,16 @@
+.section{
+    max-width: 1200px;
+    margin: auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
