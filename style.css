@@ -1,16 +1,270 @@
-.section{
-    max-width: 1200px;
-    margin: auto;
-}
-
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+
+
+
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+
+.header-menu ul{
+    display: flex;
+    justify-content: start;
+    
+    gap: 50px;
+
+}
+.header-menu ul li{
+    list-style-type: none;
+
+}
+
+.header-menu ul li a{
+text-decoration: none;
+color: #182327;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+
+.header-button{
+    padding: 15px 25px;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.header-button a{
+    text-decoration: none;
+    color: #fff;
 
 }
 
 
-.header{
+/* header css codes ends here */
+
+
+.hero-main{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-section{
+    background-image: url(image/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    align-items: center;
+   
+}
+
+.hero-btn{
+    padding: 15px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+
+}
+.hero-btn a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.hero-main h1{
+color: #182327;
+font-family: Sentient;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: 76px; 
+}
+
+.hero-main p{
+color: #182327;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-top: 5%;
+margin-bottom: 5%;
+
+}
+
+.hero-img{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-main h1{
+    position: relative;
+}
+.hero-main h1::after{
+    content: "";
+    background-image: url(image/badi.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    align-items: center;
+    top:15;
+    bottom: 25;
+    z-index: 900;
+
+}
+
+
+
+
+/* section two start from here */
+
+
+.star{
+    color: #FBB616 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.star ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.chips-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tasty-chips{
+color: #182327;
+font-family: Sentient;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; 
+}
+
+
+.chips-product{
+    padding: 150px 0px;
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+
+}
+
+.chips-product{
+    position: relative;
+}
+
+
+.chips-product::after{
+    content: "";
+    background-image: url( image/chips.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:10 ;
+    bottom: 0;
+    right: 0;
+    justify-content: right;
+    background-repeat: no-repeat;
+    background-position:top right;
+
+}
+
+.product-page h1{
+color: #182327;
+font-family: Sentient;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; 
+}
+
+
+.product-page p{
+color: #5D696D;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+
+.product-page h4{
+color: #5D696D;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+
+
+.tasty-btn{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.tasty-btn button{
+    background-color: #000;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tasty-btn button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tasty-bt2 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.chips-product img{
+    background-position: left center;
 }
